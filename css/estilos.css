@@ -130,7 +130,7 @@ header .menu .color4 :hover {
 
 /* SOBRE MI */
 .container .sobre-mi .info .nombre {
-  color: #975252;
+  color: #a11e1e;
   font-weight: 250px;
   font-size: 30px;
   letter-spacing: 2px;
@@ -153,7 +153,7 @@ header .menu .color4 :hover {
 }
 
 .container .sobre-mi {
-  background-color: rgba(203, 202, 202, 0.4352941176);
+  background-color: rgba(34, 34, 34, 0.81);
   row-gap: 10px;
   border-radius: 10px;
 }
