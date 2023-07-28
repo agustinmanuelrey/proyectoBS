@@ -1,1 +1,237 @@
-/*# sourceMappingURL=estilos.css.map */
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url(../assets/img/paisaje8.jpg);
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body .fotografias {
+  background: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  background-image: url(../assets/img/paisaje4.jpg);
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .nav {
+  min-height: 88px;
+  overflow:hidden;
+  background: rgba(255, 255, 255, 0.4117647059);
+}
+
+header .logo h2 {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #1a1919;
+}
+
+header .logo a {
+  text-decoration: none;
+}
+
+header .logo p {
+  font-size: 16px;
+  display: inline-block;
+}
+
+header .logo .icono {
+  color: #bfbfbf;
+}
+
+header .logo svg {
+  width: 20px;
+  height: 20px;
+}
+
+header .logo p {
+  color: #464646;
+  margin-left: 1px;
+  padding-top: 10px;
+}
+
+header .menu .color0 {
+  background: #9a9999;
+}
+header .menu .color1 {
+  background: #575757;
+}
+
+header .menu .color2 {
+  background: #4e4d4d;
+}
+
+header .menu .color3 {
+  background: #292828;
+}
+
+header .menu .color4 {
+  background: #1a1919;
+}
+
+header .menu .color0 :hover {
+  background: #6e6a6a;
+}
+header .menu .color1 :hover {
+  background: #6e6a6a;
+}
+
+header .menu .color2 :hover {
+  background: #6e6a6a;
+}
+
+header .menu .color3 :hover {
+  background: #6e6a6a;
+}
+
+header .menu .color4 :hover {
+  background: #6e6a6a;
+}
+
+
+
+/* MAIN */
+/* Galeria */
+.Galeria {
+  background: rgba(255, 255, 255, 0.2352941176);
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-size: small;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.galeria .titulo {
+  color: #ffffff;
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-weight: 300px;
+}
+
+.Galeria .marcos .contenedor-imagen {
+  max-height: 180px;
+  overflow: hidden;
+}
+
+.Galeria .marcos .contenedor-imagen a {
+  background: #626262;
+  display: inline-block;
+}
+
+.Galeria .marcos .contenedor-imagen:hover {
+  opacity: 0.3;
+}
+
+/* Ventana Modal */
+.modal-dialog {
+  max-width: 1000px;
+}
+
+/* SOBRE MI */
+.container .sobre-mi .info .nombre {
+  color: #975252;
+  font-weight: 250px;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.container .sobre-mi .info .titulo {
+  color: #ffffff;
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-weight: 200px;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.container .sobre-mi .info .resumen {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  line-height: normal;
+  letter-spacing: 1px;
+  font-weight: 100px;
+}
+
+.container .sobre-mi {
+  background-color: rgba(203, 202, 202, 0.4352941176);
+  row-gap: 10px;
+  border-radius: 10px;
+}
+
+/*CONTACTO*/
+.container .Galeria .titulo {
+  font-weight: 100;
+}
+
+.container .Galeria .formulario input[type=text],
+.container .Galeria .formulario input[type=email],
+.container .Galeria .formulario textarea {
+  padding: 15px;
+  border: none;
+}
+
+.container .Galeria .formulario textarea {
+  height: 150px;
+  min-height: 150px;
+  max-height: 250px;
+}
+
+.container .Galeria .formulario .boton {
+  background: #292828;
+  border: none;
+  width: auto;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 7px 30px;
+  color: #ffffff;
+}
+
+.container .Galeria .formulario .boton:hover {
+  background: #6e6a6a;
+}
+
+/*FOOTER*/
+/*Redes Sociales*/
+.redes-sociales {
+  padding: 30px 0;
+  margin-bottom: 40px;
+}
+
+.redes-sociales .icono {
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+  background: #cbcbcb;
+  display: inline-block;
+  margin: 0px 20px;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: all 0.3s ease;
+}
+
+.redes-sociales .icono svg {
+  width: 30px;
+  height: 30px;
+}
+
+.redes-sociales .instagram {
+  background: #b95fa4;
+}
+
+.redes-sociales .facebook {
+  background: #2310b6;
+}
+
+.redes-sociales .whatsapp {
+  background: #14a43a;
+}
+
+/* MIS VIDEOS */
+.container video {
+  margin-bottom: 20px;
+  /* Espacio entre los videos */
+  height: 300px;
+  /* Altura de los videos */
+  border-radius: 30px;
+  border-color: black;
+}/*# sourceMappingURL=estilos.css.map */
