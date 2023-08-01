@@ -17,7 +17,7 @@ body .fotografias {
 
 header .nav {
   min-height: 88px;
-  overflow:hidden;
+  overflow: hidden;
   background: rgba(255, 255, 255, 0.4117647059);
 }
 
@@ -49,13 +49,10 @@ header .logo svg {
 
 header .logo p {
   color: #464646;
-  margin-left: 1px;
+  margin-left: 0.5px;
   padding-top: 10px;
 }
 
-header .menu .color0 {
-  background: #9a9999;
-}
 header .menu .color1 {
   background: #575757;
 }
@@ -72,9 +69,6 @@ header .menu .color4 {
   background: #1a1919;
 }
 
-header .menu .color0 :hover {
-  background: #6e6a6a;
-}
 header .menu .color1 :hover {
   background: #6e6a6a;
 }
@@ -91,10 +85,17 @@ header .menu .color4 :hover {
   background: #6e6a6a;
 }
 
-
+section .zocalo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-size: smaller;
+}
 
 /* MAIN */
-/* Galeria */
+/* Galeria*/
 .Galeria {
   background: rgba(255, 255, 255, 0.2352941176);
   font-family: "Montserrat Subrayada", sans-serif;
@@ -130,7 +131,7 @@ header .menu .color4 :hover {
 
 /* SOBRE MI */
 .container .sobre-mi .info .nombre {
-  color: #a11e1e;
+  color: #975252;
   font-weight: 250px;
   font-size: 30px;
   letter-spacing: 2px;
@@ -153,7 +154,7 @@ header .menu .color4 :hover {
 }
 
 .container .sobre-mi {
-  background-color: rgba(34, 34, 34, 0.81);
+  background-color: rgba(34, 34, 34, 0.8196078431);
   row-gap: 10px;
   border-radius: 10px;
 }

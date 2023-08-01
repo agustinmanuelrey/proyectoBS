@@ -15,6 +15,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="menuresponsivo.css" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/estilos.css" />
     <title>Juan Ignacio Bazterrica - Fotografia Profesional</title>
@@ -161,10 +169,10 @@
             </div>
           </a>
         </nav>
-      </div>
     </header>
 
     <main>
+    <section>  
       <div class="container">
         <div class="row Galeria px-4 mb-5">
           <div class="col">
@@ -277,6 +285,7 @@
           </div>
         </div>
       </div>
+    </section>  
     </main>
 
     <footer>
@@ -339,9 +348,31 @@
           </div>
         </div>
       </div>
+
+      <section>
+        <h3 class="zocalo">
+          Copyright © 2023 - Desarrollado por Agustin
+        </h3>
+      </section>
     </footer>
 
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/app.js"></script>
+    <script>
+      const toggleBtn = document.querySelector(".toggle_btn");
+      const toggleBtnIcon = document.querySelector(".toggle_btn i");
+      const dropDownMenu = document.querySelector(".dropdown_menu");
+
+      toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle("open");
+        const isOpen = dropDownMenu.classList.contains("open");
+
+        toggleBtnIcon.classList = isOpen
+          ? "fa-solid fa-xmark"
+          : "fa-solid fa-bars";
+      };
+    </script>
+
+
   </body>
 </html>

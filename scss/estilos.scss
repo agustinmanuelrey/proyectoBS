@@ -93,7 +93,14 @@ header .menu .color4 :hover {
     background: #6e6a6a;
 }
 
-
+section .zocalo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-size: smaller;
+}
 
 
 /* MAIN */
@@ -163,7 +170,7 @@ header .menu .color4 :hover {
 }
 
 .container .sobre-mi {
-    background-color: #cbcaca6f;
+    background-color: #222222d1;
     row-gap: 10px;
     border-radius: 10px;
 
