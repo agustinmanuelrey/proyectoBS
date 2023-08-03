@@ -1,6 +1,18 @@
+/*crear-variables*/
+$tipografia-general: 'Open Sans', sans-serif;
+$tipografia-titulos: 'Montserrat Subrayada', sans-serif;
+$imagen-fondo1: url(../assets/img/paisaje4.jpg);
+$color-principal: #ffffff;
+$color-hover: #6e6a6a;
+
+
+
+
+
+
 body {
     
-    font-family: 'Open Sans', sans-serif;
+    font-family: $tipografia-general;
     background-image: url(../assets/img/paisaje8.jpg);
     align-items: center;
     background-repeat: no-repeat;
@@ -9,9 +21,9 @@ body {
 }
 
 body .fotografias {
-    background: #ffffff;
-    font-family: 'Open Sans', sans-serif;
-    background-image: url(../assets/img/paisaje4.jpg);
+    background: $color-principal;
+    font-family: $tipografia-general;
+    background-image: $imagen-fondo1;
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +39,7 @@ header .nav {
 }
 
 header .logo h2 {
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: $tipografia-titulos;
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
@@ -78,19 +90,19 @@ header .menu .color4 {
 }
 
 header .menu .color1 :hover {
-    background: #6e6a6a;
+    background: $color-hover;
 }
 
 header .menu .color2 :hover {
-    background: #6e6a6a;
+    background: $color-hover;
 }
 
 header .menu .color3 :hover {
-    background: #6e6a6a;
+    background: $color-hover;
 }
 
 header .menu .color4 :hover {
-    background: #6e6a6a;
+    background: $color-hover;
 }
 
 section .zocalo {
@@ -98,7 +110,7 @@ section .zocalo {
     justify-content: center;
     align-items: center;
     margin-bottom: 5px;
-    color: #ffffff;
+    color: $color-principal;
     font-size: smaller;
 }
 
@@ -110,15 +122,15 @@ section .zocalo {
 .Galeria {
 
     background: #ffffff3c;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: $tipografia-titulos;
     font-size: small;
     border-radius: 20px;
     padding: 10px;
 }
 
 .galeria .titulo {
-    color: #ffffff;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    color: $color-principal;
+    font-family: $tipografia-titulos;
     font-weight: 300px;
 }
 
@@ -153,16 +165,16 @@ section .zocalo {
 }
 
 .container .sobre-mi .info .titulo {
-    color: #ffffff;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    color: $color-principal;
+    font-family: $tipografia-titulos;
     font-weight: 200px;
     font-size: 40px;
     margin-bottom: 25px;
 }
 
 .container .sobre-mi .info .resumen {
-    color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
+    color: $color-principal;
+    font-family: $tipografia-general;
     line-height: normal;
     letter-spacing: 1px;
     font-weight: 100px;
@@ -205,11 +217,11 @@ section .zocalo {
     border-radius: 3px;
     cursor: pointer;
     padding: 7px 30px;
-    color: #ffffff;
+    color: $color-principal;
 }
 
 .container .Galeria .formulario .boton:hover {
-    background: #6e6a6a;
+    background: $color-hover;
 }
 
 /*FOOTER*/
@@ -223,7 +235,7 @@ section .zocalo {
 .redes-sociales .icono {
     width: 50px;
     height: 50px;
-    color: #ffffff;
+    color: $color-principal;
     background: #cbcbcb;
     display: inline-block;
     margin: 0px 20px;
