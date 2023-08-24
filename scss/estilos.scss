@@ -11,12 +11,17 @@ $color-hover: #6e6a6a;
 
 
 body {
-    
+    position: relative;
+    padding: 0 2rem;
+
     font-family: $tipografia-general;
-    background-image: url(../assets/img/paisaje8.jpg);
-    align-items: center;
+    background: #C9CCD3;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(0,0,0,0.50) 100%), url(../assets/img/abstractBG1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
     
 }
 
@@ -30,80 +35,72 @@ body .fotografias {
 
 }
 
+.nav-item{
+    font-weight: 400;
+    font-size: medium;
 
-
-header .nav {
-    min-height: 88px;
-    overflow: hidden;
-    background: #ffffff69;
 }
 
-header .logo h2 {
-    font-family: $tipografia-titulos;
-    font-size: 18px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #1a1919;
-}
+/* GALERIA*/
 
-header .logo a {
-    text-decoration: none;
-}
-
-header .logo p {
-    font-size: 16px;
-    display: inline-block;
-}
-
-header .logo .icono {
-    color: #bfbfbf;
-}
-
-header .logo svg {
+.gallery {
+    background: #f2f2f298;
+  }
+  
+  .contenedor-galeria {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .img-galeria {
+    object-fit: cover;
+    width: 30%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  
+  .imagen-light {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(100%);
+    transition: trasnform 0.2s ease-in-out;
+  }
+  
+  .show {
+    transform: translate(0);
+  }
+  
+  .agregar-imagen {
+    object-fit: cover;
+    width: 60%;
+    border-radius: 10px;
+    transform: scale(0);
+    transition: transform 0.3s 0.2s;
+  }
+  
+  .showImage {
+    transform: scale(1);
+  }
+  
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
     width: 20px;
-    height: 20px;
-
-}
-
-header .logo p {
-    color: #464646;
-    margin-left: 0.5px;
-    padding-top: 10px;
-}
-
-
-
-header .menu .color1 {
-    background: #575757;
-}
-
-header .menu .color2 {
-    background: #4e4d4d;
-}
-
-header .menu .color3 {
-    background: #292828;
-}
-
-header .menu .color4 {
-    background: #1a1919;
-}
-
-header .menu .color1 :hover {
-    background: $color-hover;
-}
-
-header .menu .color2 :hover {
-    background: $color-hover;
-}
-
-header .menu .color3 :hover {
-    background: $color-hover;
-}
-
-header .menu .color4 :hover {
-    background: $color-hover;
-}
+    cursor: pointer;
+    color: #fff;
+  }
 
 section .zocalo {
     display: flex;
@@ -116,42 +113,42 @@ section .zocalo {
 
 
 /* MAIN */
-/* Galeria*/
 
 
-.Galeria {
 
-    background: #ffffff3c;
-    font-family: $tipografia-titulos;
-    font-size: small;
-    border-radius: 20px;
-    padding: 10px;
-}
+// .Galeria {
 
-.galeria .titulo {
-    color: $color-principal;
-    font-family: $tipografia-titulos;
-    font-weight: 300px;
-}
+//     background: #ffffff3c;
+//     font-family: $tipografia-titulos;
+//     font-size: small;
+//     border-radius: 20px;
+//     padding: 10px;
+// }
 
-.Galeria .marcos .contenedor-imagen {
-    max-height: 180px;
-    overflow: hidden;
-}
+// .galeria .titulo {
+//     color: $color-principal;
+//     font-family: $tipografia-titulos;
+//     font-weight: 300px;
+// }
 
-.Galeria .marcos .contenedor-imagen a {
-    background: #626262;
-    display: inline-block;
-}
+// .Galeria .marcos .contenedor-imagen {
+//     max-height: 180px;
+//     overflow: hidden;
+// }
 
-.Galeria .marcos .contenedor-imagen:hover {
-    opacity: .3;
-}
+// .Galeria .marcos .contenedor-imagen a {
+//     background: #626262;
+//     display: inline-block;
+// }
 
-/* Ventana Modal */
-.modal-dialog {
-    max-width: 1000px;
-}
+// .Galeria .marcos .contenedor-imagen:hover {
+//     opacity: .3;
+// }
+
+// /* Ventana Modal */
+// .modal-dialog {
+//     max-width: 1000px;
+// }
 
 
 /* SOBRE MI */
