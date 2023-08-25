@@ -35,6 +35,16 @@ body .fotografias {
 
 }
 
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgba(255, 255, 255, .1);
+    
+}
+
 .nav-item{
     font-weight: 400;
     font-size: medium;
@@ -114,7 +124,18 @@ section .zocalo {
 
 /* MAIN */
 
+// CAROUSEL
 
+.c-item{
+    height: 480px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+
+}
 
 // .Galeria {
 
